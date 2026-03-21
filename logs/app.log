@@ -1,0 +1,768 @@
+2026-03-18 23:17:15 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-18 23:17:15 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-18 23:17:15 | INFO     | resume_analyzer | API ready | env=development | ai_provider=openrouter
+2026-03-18 23:17:19 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-19 14:18:39 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-19 14:18:39 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-19 14:18:39 | INFO     | resume_analyzer | API ready | env=development | ai_provider=openrouter
+2026-03-19 14:22:14 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-19 16:17:09 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-19 16:17:09 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-19 16:17:09 | INFO     | resume_analyzer | API ready | env=development | ai_provider=openrouter
+2026-03-19 16:19:14 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-19 16:22:28 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-19 16:22:28 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-19 16:22:28 | INFO     | resume_analyzer | API ready | env=development | ai_provider=openrouter
+2026-03-19 16:24:32 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-19 16:27:25 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-19 16:27:25 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-19 16:27:25 | INFO     | resume_analyzer | API ready | env=development | ai_provider=openrouter
+2026-03-19 16:32:39 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-19 17:21:13 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-19 17:21:13 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-19 17:21:13 | INFO     | resume_analyzer | API ready | env=development | ai_provider=openrouter
+2026-03-19 17:25:09 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-19 17:29:10 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-19 17:29:10 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-19 17:29:10 | INFO     | resume_analyzer | API ready | env=development | ai_provider=openrouter
+2026-03-19 17:38:24 | INFO     | resume_analyzer | Uploaded: RESUME.pdf -> data\uploads\2014724c-b275-49fa-9eab-00e9042cfb17.pdf
+2026-03-19 17:39:18 | INFO     | resume_analyzer | Analyzing job: Data Scientist 
+2026-03-19 17:39:38 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 401 - {'error': {'message': 'No cookie auth credentials found', 'code': 401}}
+2026-03-19 17:39:38 | ERROR    | resume_analyzer | Job analysis failed: AI provider error (openrouter): Error code: 401 - {'error': {'message': 'No cookie auth credentials found', 'code': 401}}
+2026-03-19 17:39:38 | INFO     | resume_analyzer | Job profile created: d9c7fab5-8ea0-444a-af34-f331a538f798 | skills=0
+2026-03-19 17:39:55 | INFO     | resume_analyzer | Processing candidate: RESUME.pdf
+2026-03-19 17:40:08 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 401 - {'error': {'message': 'No cookie auth credentials found', 'code': 401}}
+2026-03-19 17:40:08 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (openrouter): Error code: 401 - {'error': {'message': 'No cookie auth credentials found', 'code': 401}}
+2026-03-19 17:40:17 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 401 - {'error': {'message': 'No cookie auth credentials found', 'code': 401}}
+2026-03-19 17:40:17 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (openrouter): Error code: 401 - {'error': {'message': 'No cookie auth credentials found', 'code': 401}}
+2026-03-19 17:40:17 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 401 - {'error': {'message': 'No cookie auth credentials found', 'code': 401}}
+2026-03-19 17:40:17 | ERROR    | resume_analyzer | Scoring failed: AI provider error (openrouter): Error code: 401 - {'error': {'message': 'No cookie auth credentials found', 'code': 401}}
+2026-03-19 17:40:17 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 401 - {'error': {'message': 'No cookie auth credentials found', 'code': 401}}
+2026-03-19 17:40:17 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (openrouter): Error code: 401 - {'error': {'message': 'No cookie auth credentials found', 'code': 401}}
+2026-03-19 17:40:21 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 401 - {'error': {'message': 'No cookie auth credentials found', 'code': 401}}
+2026-03-19 17:40:21 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (openrouter): Error code: 401 - {'error': {'message': 'No cookie auth credentials found', 'code': 401}}
+2026-03-19 17:40:21 | INFO     | resume_analyzer | Candidate RESUME.pdf scored 1.0/10 (shortlisted=False)
+2026-03-19 17:40:24 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 401 - {'error': {'message': 'No cookie auth credentials found', 'code': 401}}
+2026-03-19 17:40:24 | ERROR    | resume_analyzer | Report generation failed: AI provider error (openrouter): Error code: 401 - {'error': {'message': 'No cookie auth credentials found', 'code': 401}}
+2026-03-19 17:40:24 | INFO     | resume_analyzer | Ranked 1 candidates. Shortlisted: 0
+2026-03-19 17:48:54 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-19 19:42:56 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-19 19:42:56 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-19 19:42:56 | INFO     | resume_analyzer | API ready | env=development | ai_provider=openrouter
+2026-03-19 19:45:27 | INFO     | resume_analyzer | Uploaded: RESUME.pdf -> data\uploads\5caf0a52-0c63-4035-b224-6e3f54d24297.pdf
+2026-03-19 19:48:44 | INFO     | resume_analyzer | Analyzing job: Beginner python developer
+2026-03-19 19:49:13 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 404 - {'error': {'message': 'No endpoints found for mistralai/mistral-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 19:49:13 | ERROR    | resume_analyzer | Job analysis failed: AI provider error (openrouter): Error code: 404 - {'error': {'message': 'No endpoints found for mistralai/mistral-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 19:49:13 | INFO     | resume_analyzer | Job profile created: 3a8fb127-4130-445a-b320-0b13fb8f9673 | skills=0
+2026-03-19 19:49:44 | INFO     | resume_analyzer | Processing candidate: RESUME.pdf
+2026-03-19 19:49:58 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 404 - {'error': {'message': 'No endpoints found for mistralai/mistral-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 19:49:58 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (openrouter): Error code: 404 - {'error': {'message': 'No endpoints found for mistralai/mistral-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 19:50:10 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 404 - {'error': {'message': 'No endpoints found for mistralai/mistral-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 19:50:10 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (openrouter): Error code: 404 - {'error': {'message': 'No endpoints found for mistralai/mistral-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 19:50:10 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 404 - {'error': {'message': 'No endpoints found for mistralai/mistral-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 19:50:10 | ERROR    | resume_analyzer | Scoring failed: AI provider error (openrouter): Error code: 404 - {'error': {'message': 'No endpoints found for mistralai/mistral-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 19:50:10 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 404 - {'error': {'message': 'No endpoints found for mistralai/mistral-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 19:50:10 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (openrouter): Error code: 404 - {'error': {'message': 'No endpoints found for mistralai/mistral-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 19:50:17 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 404 - {'error': {'message': 'No endpoints found for mistralai/mistral-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 19:50:17 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (openrouter): Error code: 404 - {'error': {'message': 'No endpoints found for mistralai/mistral-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 19:50:17 | INFO     | resume_analyzer | Candidate RESUME.pdf scored 1.0/10 (shortlisted=False)
+2026-03-19 19:50:22 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 404 - {'error': {'message': 'No endpoints found for mistralai/mistral-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 19:50:22 | ERROR    | resume_analyzer | Report generation failed: AI provider error (openrouter): Error code: 404 - {'error': {'message': 'No endpoints found for mistralai/mistral-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 19:50:22 | INFO     | resume_analyzer | Ranked 1 candidates. Shortlisted: 0
+2026-03-19 19:50:27 | INFO     | resume_analyzer | CSV export: 1 rows
+2026-03-19 20:03:29 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-19 20:10:46 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 404 - {'error': {'message': 'No endpoints found for mistralai/mistral-7b-instruct:free.', 'code': 404}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 20:26:26 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-19 20:26:26 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-19 20:26:26 | INFO     | resume_analyzer | API ready | env=development | ai_provider=openrouter
+2026-03-19 20:28:19 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-19 20:42:28 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 404 - {'error': {'message': 'No endpoints found for meta-llama/llama-3.1-8b-instruct:free.', 'code': 404}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 20:43:29 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 404 - {'error': {'message': 'No endpoints found for meta-llama/llama-3.1-8b-instruct:free.', 'code': 404}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 22:49:15 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-19 22:49:16 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-19 22:49:16 | INFO     | resume_analyzer | API ready | env=development | ai_provider=openrouter
+2026-03-19 22:53:11 | INFO     | resume_analyzer | Uploaded: RESUME.pdf -> data\uploads\8604c898-6cda-47d5-850a-d9bac6deb080.pdf
+2026-03-19 22:56:30 | INFO     | resume_analyzer | Analyzing job: Python Developer
+2026-03-19 22:56:51 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\n  "error": {\n    "code": 400,\n    "message": "Developer instruction is not enabled for models/gemma-3-4b-it",\n    "status": "INVALID_ARGUMENT"\n  }\n}\n', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 22:56:51 | ERROR    | resume_analyzer | Job analysis failed: AI provider error (openrouter): Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\n  "error": {\n    "code": 400,\n    "message": "Developer instruction is not enabled for models/gemma-3-4b-it",\n    "status": "INVALID_ARGUMENT"\n  }\n}\n', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 22:56:51 | INFO     | resume_analyzer | Job profile created: aea5f577-eef6-40d3-bd2e-631e1de8c3dc | skills=0
+2026-03-19 22:57:09 | INFO     | resume_analyzer | Processing candidate: RESUME.pdf
+2026-03-19 22:57:24 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 22:57:24 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 22:57:36 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 22:57:36 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 22:57:36 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 22:57:36 | ERROR    | resume_analyzer | Scoring failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 22:57:36 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 22:57:36 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 22:57:40 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\n  "error": {\n    "code": 400,\n    "message": "Developer instruction is not enabled for models/gemma-3-4b-it",\n    "status": "INVALID_ARGUMENT"\n  }\n}\n', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 22:57:40 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (openrouter): Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\n  "error": {\n    "code": 400,\n    "message": "Developer instruction is not enabled for models/gemma-3-4b-it",\n    "status": "INVALID_ARGUMENT"\n  }\n}\n', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 22:57:40 | INFO     | resume_analyzer | Candidate RESUME.pdf scored 1.0/10 (shortlisted=False)
+2026-03-19 22:57:45 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\n  "error": {\n    "code": 400,\n    "message": "Developer instruction is not enabled for models/gemma-3-4b-it",\n    "status": "INVALID_ARGUMENT"\n  }\n}\n', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 22:57:45 | ERROR    | resume_analyzer | Report generation failed: AI provider error (openrouter): Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\n  "error": {\n    "code": 400,\n    "message": "Developer instruction is not enabled for models/gemma-3-4b-it",\n    "status": "INVALID_ARGUMENT"\n  }\n}\n', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-19 22:57:45 | INFO     | resume_analyzer | Ranked 1 candidates. Shortlisted: 0
+2026-03-19 22:57:50 | INFO     | resume_analyzer | CSV export: 1 rows
+2026-03-19 23:01:24 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-19 23:34:18 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-19 23:34:19 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-19 23:34:19 | INFO     | resume_analyzer | API ready | env=development | ai_provider=openrouter
+2026-03-19 23:45:59 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-19 23:49:06 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-19 23:49:07 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-19 23:49:07 | INFO     | resume_analyzer | API ready | env=development | ai_provider=openrouter
+2026-03-19 23:56:51 | INFO     | resume_analyzer | Uploaded: RESUME.pdf -> data\uploads\10474bc2-ddb7-46c0-9e8d-77c78950fbb6.pdf
+2026-03-20 00:00:46 | INFO     | resume_analyzer | Analyzing job: Python Developer
+2026-03-20 00:01:48 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\n  "error": {\n    "code": 400,\n    "message": "Developer instruction is not enabled for models/gemma-3-4b-it",\n    "status": "INVALID_ARGUMENT"\n  }\n}\n', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:01:48 | ERROR    | resume_analyzer | Job analysis failed: AI provider error (openrouter): Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\n  "error": {\n    "code": 400,\n    "message": "Developer instruction is not enabled for models/gemma-3-4b-it",\n    "status": "INVALID_ARGUMENT"\n  }\n}\n', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:01:48 | INFO     | resume_analyzer | Job profile created: 767279f7-f8d3-41cc-aa56-787ad6e89fcb | skills=0
+2026-03-20 00:01:53 | INFO     | resume_analyzer | Analyzing job: Python Developer
+2026-03-20 00:02:07 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\n  "error": {\n    "code": 400,\n    "message": "Developer instruction is not enabled for models/gemma-3-4b-it",\n    "status": "INVALID_ARGUMENT"\n  }\n}\n', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:02:07 | ERROR    | resume_analyzer | Job analysis failed: AI provider error (openrouter): Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\n  "error": {\n    "code": 400,\n    "message": "Developer instruction is not enabled for models/gemma-3-4b-it",\n    "status": "INVALID_ARGUMENT"\n  }\n}\n', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:02:07 | INFO     | resume_analyzer | Job profile created: c4eee5b3-1a0b-49fe-8e65-6c260dcb186f | skills=0
+2026-03-20 00:02:26 | INFO     | resume_analyzer | Processing candidate: RESUME.pdf
+2026-03-20 00:02:52 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\n  "error": {\n    "code": 400,\n    "message": "Developer instruction is not enabled for models/gemma-3-4b-it",\n    "status": "INVALID_ARGUMENT"\n  }\n}\n', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:02:52 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (openrouter): Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\n  "error": {\n    "code": 400,\n    "message": "Developer instruction is not enabled for models/gemma-3-4b-it",\n    "status": "INVALID_ARGUMENT"\n  }\n}\n', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:03:09 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\n  "error": {\n    "code": 400,\n    "message": "Developer instruction is not enabled for models/gemma-3-4b-it",\n    "status": "INVALID_ARGUMENT"\n  }\n}\n', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:03:09 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (openrouter): Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\n  "error": {\n    "code": 400,\n    "message": "Developer instruction is not enabled for models/gemma-3-4b-it",\n    "status": "INVALID_ARGUMENT"\n  }\n}\n', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:03:09 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\n  "error": {\n    "code": 400,\n    "message": "Developer instruction is not enabled for models/gemma-3-4b-it",\n    "status": "INVALID_ARGUMENT"\n  }\n}\n', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:03:09 | ERROR    | resume_analyzer | Scoring failed: AI provider error (openrouter): Error code: 400 - {'error': {'message': 'Provider returned error', 'code': 400, 'metadata': {'raw': '{\n  "error": {\n    "code": 400,\n    "message": "Developer instruction is not enabled for models/gemma-3-4b-it",\n    "status": "INVALID_ARGUMENT"\n  }\n}\n', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:03:12 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:03:12 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:03:21 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:03:21 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:03:21 | INFO     | resume_analyzer | Candidate RESUME.pdf scored 1.0/10 (shortlisted=False)
+2026-03-20 00:03:30 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:03:30 | ERROR    | resume_analyzer | Report generation failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:03:30 | INFO     | resume_analyzer | Ranked 1 candidates. Shortlisted: 0
+2026-03-20 00:03:42 | INFO     | resume_analyzer | CSV export: 1 rows
+2026-03-20 00:04:10 | INFO     | resume_analyzer | CSV export: 1 rows
+2026-03-20 00:04:22 | INFO     | resume_analyzer | CSV export: 1 rows
+2026-03-20 00:04:26 | INFO     | resume_analyzer | CSV export: 1 rows
+2026-03-20 00:04:35 | INFO     | resume_analyzer | CSV export: 1 rows
+2026-03-20 00:11:58 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-20 00:17:10 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-20 00:17:10 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-20 00:17:10 | INFO     | resume_analyzer | API ready | env=development | ai_provider=openrouter
+2026-03-20 00:22:16 | INFO     | resume_analyzer | Uploaded: RESUME.pdf -> data\uploads\6409ceb4-3cd6-4883-9bca-fe56872eb608.pdf
+2026-03-20 00:26:37 | INFO     | resume_analyzer | Uploaded: RESUME.pdf -> data\uploads\827600b4-95a8-454b-83dd-9f5faab37589.pdf
+2026-03-20 00:27:08 | INFO     | resume_analyzer | Analyzing job: Senior Python Developer
+2026-03-20 00:27:44 | INFO     | resume_analyzer | Job analyzed -> role=Senior Python Developer
+2026-03-20 00:27:44 | INFO     | resume_analyzer | Job profile created: 13391640-85ec-41a9-9116-74bdb55020e7 | skills=16
+2026-03-20 00:28:31 | INFO     | resume_analyzer | Processing candidate: RESUME.pdf
+2026-03-20 00:28:51 | INFO     | resume_analyzer | Resume parsed -> name=Nandini Das
+2026-03-20 00:29:06 | INFO     | resume_analyzer | Scored Nandini Das = 7.5/10
+2026-03-20 00:29:21 | INFO     | resume_analyzer | Candidate Nandini Das scored 7.5/10 (shortlisted=True)
+2026-03-20 00:29:40 | INFO     | resume_analyzer | Ranked 1 candidates. Shortlisted: 1
+2026-03-20 00:29:46 | INFO     | resume_analyzer | CSV export: 1 rows
+2026-03-20 00:30:25 | INFO     | resume_analyzer | CSV export: 1 rows
+2026-03-20 00:33:18 | INFO     | resume_analyzer | Uploaded: RESUME.pdf -> data\uploads\1fe3f819-c519-4586-8e92-271836494051.pdf
+2026-03-20 00:33:18 | INFO     | resume_analyzer | Uploaded: Black and White Minimalist Accountant Resume.pdf -> data\uploads\db2aa83b-735a-4350-95fc-bc46e89ce532.pdf
+2026-03-20 00:35:21 | INFO     | resume_analyzer | Analyzing job: Python Developer
+2026-03-20 00:35:31 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:35:31 | ERROR    | resume_analyzer | Job analysis failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:35:31 | INFO     | resume_analyzer | Job profile created: b36210ef-2a10-4008-8fda-abc8f796553f | skills=0
+2026-03-20 00:35:49 | INFO     | resume_analyzer | Processing candidate: RESUME.pdf
+2026-03-20 00:36:05 | INFO     | resume_analyzer | Processing candidate: Black and White Minimalist Accountant Resume.pdf
+2026-03-20 00:36:27 | INFO     | resume_analyzer | Resume parsed -> name=PRANAY AJAY TAKKAMORE
+2026-03-20 00:36:42 | INFO     | resume_analyzer | Resume parsed -> name=Nandini Das
+2026-03-20 00:37:01 | INFO     | resume_analyzer | Scored Nandini Das = 7.8/10
+2026-03-20 00:37:03 | INFO     | resume_analyzer | Scored PRANAY AJAY TAKKAMORE = 7.8/10
+2026-03-20 00:37:12 | WARNING  | resume_analyzer | Could not extract JSON: ```json
+{
+  "issues": [
+    {
+      "category": "Missing Metrics",
+      "description": "Lack of quantifiable results in project descriptions.  'Designed,' 'Developed,' 'Proposed' are vague.  Adding m
+2026-03-20 00:37:19 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:37:19 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:37:19 | INFO     | resume_analyzer | Candidate Nandini Das scored 7.8/10 (shortlisted=True)
+2026-03-20 00:37:23 | INFO     | resume_analyzer | Candidate PRANAY AJAY TAKKAMORE scored 7.8/10 (shortlisted=True)
+2026-03-20 00:37:31 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:37:31 | ERROR    | resume_analyzer | Report generation failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:37:39 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:37:39 | ERROR    | resume_analyzer | Report generation failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 00:37:39 | INFO     | resume_analyzer | Ranked 2 candidates. Shortlisted: 2
+2026-03-20 00:37:48 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-20 00:39:53 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-20 00:44:00 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-20 01:00:25 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-20 02:11:10 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-20 02:11:11 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-20 02:11:11 | INFO     | resume_analyzer | API ready | env=development | ai_provider=openrouter
+2026-03-20 02:15:31 | INFO     | resume_analyzer | Uploaded: Black and White Minimalist Accountant Resume.pdf -> data\uploads\dcdb3407-5dc2-43b8-ae8b-925b564e1804.pdf
+2026-03-20 02:15:31 | INFO     | resume_analyzer | Uploaded: RESUME.pdf -> data\uploads\10aa2669-651b-41e9-bdcf-7dd7bc7428e3.pdf
+2026-03-20 02:18:24 | INFO     | resume_analyzer | Analyzing job:  Python Developer
+2026-03-20 02:18:49 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:18:49 | ERROR    | resume_analyzer | Job analysis failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:18:49 | INFO     | resume_analyzer | Job profile created: da44decc-8806-4bcb-a1af-6436dfad3f1c | skills=0
+2026-03-20 02:19:40 | INFO     | resume_analyzer | Processing candidate: RESUME.pdf
+2026-03-20 02:19:52 | INFO     | resume_analyzer | Processing candidate: Black and White Minimalist Accountant Resume.pdf
+2026-03-20 02:20:03 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:03 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:12 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:12 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:24 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:24 | ERROR    | resume_analyzer | Scoring failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:24 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:24 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:24 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:24 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:27 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:27 | ERROR    | resume_analyzer | Scoring failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:28 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:28 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:28 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:28 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:33 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773953460000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:33 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773953460000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:33 | INFO     | resume_analyzer | Candidate RESUME.pdf scored 1.0/10
+2026-03-20 02:20:34 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773953460000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:34 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773953460000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:34 | INFO     | resume_analyzer | Candidate Black and White Minimalist Accountant Resume.pdf scored 1.0/10
+2026-03-20 02:20:40 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773953460000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:40 | ERROR    | resume_analyzer | Report generation failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773953460000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:40 | INFO     | resume_analyzer | Used local report for RESUME.pdf
+2026-03-20 02:20:47 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773953460000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:47 | ERROR    | resume_analyzer | Report generation failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773953460000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:20:47 | INFO     | resume_analyzer | Used local report for Black and White Minimalist Accountant Resume.pdf
+2026-03-20 02:20:47 | INFO     | resume_analyzer | Ranked 2 candidates. Shortlisted: 0
+2026-03-20 02:20:56 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-20 02:24:21 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-20 02:35:51 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-20 02:35:51 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-20 02:35:51 | INFO     | resume_analyzer | API ready | env=development | ai_provider=openrouter
+2026-03-20 02:40:30 | INFO     | resume_analyzer | Uploaded: RESUME.pdf -> data\uploads\8eaa9f31-0126-4950-9834-55d28dccfbd3.pdf
+2026-03-20 02:40:30 | INFO     | resume_analyzer | Uploaded: Black and White Minimalist Accountant Resume.pdf -> data\uploads\a6af3553-d606-48df-ad44-1a6792e29235.pdf
+2026-03-20 02:42:52 | INFO     | resume_analyzer | Analyzing job: Python Developer
+2026-03-20 02:43:17 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:43:17 | ERROR    | resume_analyzer | Job analysis failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:43:17 | INFO     | resume_analyzer | Job profile created: 57d648df-8ad1-4c9a-b6a9-eb39fdc60a5d | skills=0
+2026-03-20 02:43:30 | INFO     | resume_analyzer | Processing candidate: RESUME.pdf
+2026-03-20 02:43:41 | INFO     | resume_analyzer | Processing candidate: Black and White Minimalist Accountant Resume.pdf
+2026-03-20 02:43:53 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:43:53 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:02 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:02 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:14 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:14 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:14 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:14 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:14 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:14 | ERROR    | resume_analyzer | Scoring failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:17 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:17 | ERROR    | resume_analyzer | Scoring failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:17 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:17 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:17 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:17 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:22 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:22 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773964800000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:22 | INFO     | resume_analyzer | Candidate RESUME.pdf scored 1.0/10
+2026-03-20 02:44:23 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773954900000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:23 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773954900000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:23 | INFO     | resume_analyzer | Candidate Black and White Minimalist Accountant Resume.pdf scored 1.0/10
+2026-03-20 02:44:29 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773954900000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:29 | ERROR    | resume_analyzer | Report generation failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773954900000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:29 | INFO     | resume_analyzer | Used local report for RESUME.pdf
+2026-03-20 02:44:35 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773954900000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:35 | ERROR    | resume_analyzer | Report generation failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1773954900000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-20 02:44:35 | INFO     | resume_analyzer | Used local report for Black and White Minimalist Accountant Resume.pdf
+2026-03-20 02:44:35 | INFO     | resume_analyzer | Ranked 2 candidates. Shortlisted: 0
+2026-03-20 02:44:44 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-21 00:36:45 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-21 00:36:45 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-21 00:36:45 | INFO     | resume_analyzer | API ready | env=development | ai_provider=openrouter
+2026-03-21 00:38:07 | INFO     | resume_analyzer | Uploaded: Black and White Minimalist Accountant Resume.pdf -> data\uploads\2151f7fd-ace3-43e3-b185-ebb47e3e4acd.pdf
+2026-03-21 00:38:07 | INFO     | resume_analyzer | Uploaded: RESUME.pdf -> data\uploads\9c5de7bd-51ba-4d27-bc73-2a590bb27a67.pdf
+2026-03-21 00:38:17 | INFO     | resume_analyzer | Analyzing job: Senior Python Developer
+2026-03-21 00:38:24 | INFO     | resume_analyzer | Job analyzed -> role=Senior Python Developer
+2026-03-21 00:38:24 | INFO     | resume_analyzer | Job profile created: 3f572127-8db6-4cc6-b36c-e25746b3af61 | skills=8
+2026-03-21 00:38:38 | INFO     | resume_analyzer | Processing candidate: Black and White Minimalist Accountant Resume.pdf
+2026-03-21 00:38:39 | INFO     | resume_analyzer | Processing candidate: RESUME.pdf
+2026-03-21 00:38:46 | INFO     | resume_analyzer | Resume parsed -> name=NANDINI DAS
+2026-03-21 00:38:47 | INFO     | resume_analyzer | Resume parsed -> name=Pranay Ajay Takkamore
+2026-03-21 00:38:53 | INFO     | resume_analyzer | Scored Pranay Ajay Takkamore = 6.0/10
+2026-03-21 00:38:53 | INFO     | resume_analyzer | Scored NANDINI DAS = 6.5/10
+2026-03-21 00:38:59 | INFO     | resume_analyzer | Candidate Pranay Ajay Takkamore scored 6.0/10
+2026-03-21 00:38:59 | INFO     | resume_analyzer | Candidate NANDINI DAS scored 6.5/10
+2026-03-21 00:39:17 | INFO     | resume_analyzer | Ranked 2 candidates. Shortlisted: 0
+2026-03-21 00:39:21 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-21 00:40:12 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-21 00:40:19 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-21 02:12:48 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-21 02:16:00 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-21 02:16:00 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-21 02:16:00 | INFO     | resume_analyzer | API ready | env=development | ai_provider=openrouter
+2026-03-21 02:16:46 | INFO     | resume_analyzer | Uploaded: RESUME.pdf -> data\uploads\8129d7da-cff2-4c33-adb5-61e659c6460b.pdf
+2026-03-21 02:16:46 | INFO     | resume_analyzer | Uploaded: Black and White Minimalist Accountant Resume.pdf -> data\uploads\d183e90a-f4af-4d10-b785-bced49eb3088.pdf
+2026-03-21 02:16:54 | INFO     | resume_analyzer | Analyzing job: Senior Python Developer
+2026-03-21 02:17:02 | INFO     | resume_analyzer | Job analyzed -> role=Senior Python Developer
+2026-03-21 02:17:02 | INFO     | resume_analyzer | Job profile created: cc692fb2-1650-4742-bdf7-3ef8fcd42ede | skills=8
+2026-03-21 02:17:12 | INFO     | resume_analyzer | Processing candidate: RESUME.pdf
+2026-03-21 02:17:13 | INFO     | resume_analyzer | Processing candidate: Black and White Minimalist Accountant Resume.pdf
+2026-03-21 02:17:21 | INFO     | resume_analyzer | Resume parsed -> name=NANDINI DAS
+2026-03-21 02:17:22 | INFO     | resume_analyzer | Resume parsed -> name=Pranay Ajay Takkamore
+2026-03-21 02:17:29 | INFO     | resume_analyzer | Scored Pranay Ajay Takkamore = 6.0/10
+2026-03-21 02:17:29 | INFO     | resume_analyzer | Scored NANDINI DAS = 6.5/10
+2026-03-21 02:17:36 | INFO     | resume_analyzer | Candidate Pranay Ajay Takkamore scored 6.0/10
+2026-03-21 02:17:36 | INFO     | resume_analyzer | Candidate NANDINI DAS scored 6.5/10
+2026-03-21 02:22:22 | INFO     | resume_analyzer | Processing candidate: RESUME.pdf
+2026-03-21 02:22:23 | INFO     | resume_analyzer | Processing candidate: Black and White Minimalist Accountant Resume.pdf
+2026-03-21 02:22:27 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:27 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:28 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:28 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:32 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1774039980000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:32 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1774039980000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:32 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1774039980000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:32 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1774039980000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:32 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:32 | ERROR    | resume_analyzer | Scoring failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:32 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:32 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'google/gemma-3-4b-it:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Google AI Studio', 'is_byok': False}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:32 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1774039980000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:32 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1774039980000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:32 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1774039980000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:32 | ERROR    | resume_analyzer | Scoring failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1774039980000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:36 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1774039980000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:36 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1774039980000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:36 | INFO     | resume_analyzer | Candidate Black and White Minimalist Accountant Resume.pdf scored 1.0/10
+2026-03-21 02:22:36 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1774039980000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:36 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1774039980000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:36 | INFO     | resume_analyzer | Candidate RESUME.pdf scored 1.0/10
+2026-03-21 02:22:39 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1774039980000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:39 | ERROR    | resume_analyzer | Report generation failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1774039980000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:39 | INFO     | resume_analyzer | Used local report for RESUME.pdf
+2026-03-21 02:22:42 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1774039980000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:42 | ERROR    | resume_analyzer | Report generation failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-min. ', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '20', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1774039980000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:22:42 | INFO     | resume_analyzer | Used local report for Black and White Minimalist Accountant Resume.pdf
+2026-03-21 02:22:42 | INFO     | resume_analyzer | Ranked 2 candidates. Shortlisted: 0
+2026-03-21 02:22:46 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-21 02:27:39 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1774051200000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:27:39 | ERROR    | resume_analyzer | Report generation failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1774051200000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:27:39 | INFO     | resume_analyzer | Used local report for NANDINI DAS
+2026-03-21 02:27:42 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1774051200000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:27:42 | ERROR    | resume_analyzer | Report generation failed: AI provider error (openrouter): Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1774051200000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:27:42 | INFO     | resume_analyzer | Used local report for Pranay Ajay Takkamore
+2026-03-21 02:27:42 | INFO     | resume_analyzer | Ranked 2 candidates. Shortlisted: 0
+2026-03-21 02:27:45 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-21 02:30:37 | ERROR    | resume_analyzer | LLM call failed [openrouter]: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1774051200000'}, 'provider_name': None}}, 'user_id': 'user_3BAPkslHGsm2r6Z92mLxQJ7Yu4b'}
+2026-03-21 02:37:36 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 401 - {'error': {'message': 'Missing Authentication header', 'code': 401}}
+2026-03-21 15:51:08 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-21 15:51:08 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-21 15:51:08 | INFO     | resume_analyzer | API ready | env=development | ai_provider=groq
+2026-03-21 15:52:36 | INFO     | resume_analyzer | Uploaded: Black and White Minimalist Accountant Resume.pdf -> data\uploads\21cd155e-c07c-4a41-8d1e-2c63a6953158.pdf
+2026-03-21 15:52:36 | INFO     | resume_analyzer | Uploaded: RESUME.pdf -> data\uploads\82f9435f-893c-4c99-a08c-2840086389ed.pdf
+2026-03-21 21:20:56 | INFO     | resume_analyzer | Uploaded: RESUME.pdf -> data\uploads\dfbcf5a6-a55b-4a82-9bc4-3c1b620a3e24.pdf
+2026-03-21 21:20:56 | INFO     | resume_analyzer | Uploaded: Black and White Minimalist Accountant Resume.pdf -> data\uploads\0d6300f6-b490-48c0-9279-fc9314d1c53e.pdf
+2026-03-21 21:21:51 | INFO     | resume_analyzer | Analyzing job: Beginner AI Engineer
+2026-03-21 21:21:55 | ERROR    | resume_analyzer | LLM call failed [groq]: Connection error.
+2026-03-21 21:21:55 | ERROR    | resume_analyzer | Job analysis failed: AI provider error (groq): Connection error.
+2026-03-21 21:21:55 | INFO     | resume_analyzer | Job profile created: 2cda24b0-e61f-49d0-ab9f-138cc11c5ec6 | skills=0
+2026-03-21 21:22:08 | INFO     | resume_analyzer | Processing candidate: Black and White Minimalist Accountant Resume.pdf
+2026-03-21 21:22:09 | INFO     | resume_analyzer | Processing candidate: RESUME.pdf
+2026-03-21 21:22:12 | ERROR    | resume_analyzer | LLM call failed [groq]: Connection error.
+2026-03-21 21:22:12 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (groq): Connection error.
+2026-03-21 21:22:13 | ERROR    | resume_analyzer | LLM call failed [groq]: Connection error.
+2026-03-21 21:22:13 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (groq): Connection error.
+2026-03-21 21:22:16 | ERROR    | resume_analyzer | LLM call failed [groq]: Connection error.
+2026-03-21 21:22:16 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (groq): Connection error.
+2026-03-21 21:22:16 | ERROR    | resume_analyzer | LLM call failed [groq]: Connection error.
+2026-03-21 21:22:16 | ERROR    | resume_analyzer | Scoring failed: AI provider error (groq): Connection error.
+2026-03-21 21:22:16 | ERROR    | resume_analyzer | LLM call failed [groq]: Connection error.
+2026-03-21 21:22:16 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (groq): Connection error.
+2026-03-21 21:22:16 | ERROR    | resume_analyzer | LLM call failed [groq]: Connection error.
+2026-03-21 21:22:16 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (groq): Connection error.
+2026-03-21 21:22:16 | ERROR    | resume_analyzer | LLM call failed [groq]: Connection error.
+2026-03-21 21:22:16 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (groq): Connection error.
+2026-03-21 21:22:16 | ERROR    | resume_analyzer | LLM call failed [groq]: Connection error.
+2026-03-21 21:22:16 | ERROR    | resume_analyzer | Scoring failed: AI provider error (groq): Connection error.
+2026-03-21 21:22:18 | ERROR    | resume_analyzer | LLM call failed [groq]: Connection error.
+2026-03-21 21:22:18 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (groq): Connection error.
+2026-03-21 21:22:18 | INFO     | resume_analyzer | Candidate Black and White Minimalist Accountant Resume.pdf scored 1.0/10
+2026-03-21 21:22:18 | ERROR    | resume_analyzer | LLM call failed [groq]: Connection error.
+2026-03-21 21:22:18 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (groq): Connection error.
+2026-03-21 21:22:18 | INFO     | resume_analyzer | Candidate RESUME.pdf scored 1.0/10
+2026-03-21 21:22:20 | ERROR    | resume_analyzer | LLM call failed [groq]: Connection error.
+2026-03-21 21:22:20 | ERROR    | resume_analyzer | Report generation failed: AI provider error (groq): Connection error.
+2026-03-21 21:22:20 | INFO     | resume_analyzer | Used local report for Black and White Minimalist Accountant Resume.pdf
+2026-03-21 21:22:22 | ERROR    | resume_analyzer | LLM call failed [groq]: Connection error.
+2026-03-21 21:22:22 | ERROR    | resume_analyzer | Report generation failed: AI provider error (groq): Connection error.
+2026-03-21 21:22:22 | INFO     | resume_analyzer | Used local report for RESUME.pdf
+2026-03-21 21:22:22 | INFO     | resume_analyzer | Ranked 2 candidates. Shortlisted: 0
+2026-03-21 21:22:26 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-21 21:23:32 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-21 21:24:14 | ERROR    | resume_analyzer | LLM call failed [groq]: Connection error.
+2026-03-21 21:42:44 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:43:06 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-21 21:43:06 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-21 21:43:06 | INFO     | resume_analyzer | API ready | env=development | ai_provider=groq
+2026-03-21 21:44:18 | INFO     | resume_analyzer | Uploaded: Black and White Minimalist Accountant Resume.pdf -> data\uploads\061302ec-3db8-47dd-8abc-295f7e3188bb.pdf
+2026-03-21 21:44:18 | INFO     | resume_analyzer | Uploaded: RESUME.pdf -> data\uploads\601b59d7-5c76-4367-bf7f-21299a59bd1e.pdf
+2026-03-21 21:44:47 | INFO     | resume_analyzer | Analyzing job: AI Developer 
+2026-03-21 21:44:48 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:44:48 | ERROR    | resume_analyzer | Job analysis failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:44:48 | INFO     | resume_analyzer | Job profile created: cea76f18-c5c6-42dd-ad54-e5a9d5da7532 | skills=0
+2026-03-21 21:45:00 | INFO     | resume_analyzer | Processing candidate: Black and White Minimalist Accountant Resume.pdf
+2026-03-21 21:45:00 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:00 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:00 | INFO     | resume_analyzer | Processing candidate: RESUME.pdf
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | Scoring failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | Scoring failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | INFO     | resume_analyzer | Candidate Black and White Minimalist Accountant Resume.pdf scored 1.0/10
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | INFO     | resume_analyzer | Candidate RESUME.pdf scored 1.0/10
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | Report generation failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | INFO     | resume_analyzer | Used local report for Black and White Minimalist Accountant Resume.pdf
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | ERROR    | resume_analyzer | Report generation failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:45:01 | INFO     | resume_analyzer | Used local report for RESUME.pdf
+2026-03-21 21:45:01 | INFO     | resume_analyzer | Ranked 2 candidates. Shortlisted: 0
+2026-03-21 21:45:04 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-21 21:45:11 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-21 21:46:12 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-21 21:46:12 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-21 21:46:12 | INFO     | resume_analyzer | API ready | env=development | ai_provider=groq
+2026-03-21 21:46:53 | INFO     | resume_analyzer | Uploaded: RESUME.pdf -> data\uploads\e284bbff-b826-4d93-bfea-6dc5578eb635.pdf
+2026-03-21 21:46:53 | INFO     | resume_analyzer | Uploaded: Black and White Minimalist Accountant Resume.pdf -> data\uploads\71d2f56e-2ea8-443c-8acf-5be91141e315.pdf
+2026-03-21 21:47:22 | INFO     | resume_analyzer | Analyzing job: AI Developer 
+2026-03-21 21:47:22 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:22 | ERROR    | resume_analyzer | Job analysis failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:22 | INFO     | resume_analyzer | Job profile created: f4a673df-5d5c-45bf-9915-0f91c41e1686 | skills=0
+2026-03-21 21:47:34 | INFO     | resume_analyzer | Processing candidate: Black and White Minimalist Accountant Resume.pdf
+2026-03-21 21:47:34 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:34 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:34 | INFO     | resume_analyzer | Processing candidate: RESUME.pdf
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | Scoring failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | Scoring failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | INFO     | resume_analyzer | Candidate Black and White Minimalist Accountant Resume.pdf scored 1.0/10
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | INFO     | resume_analyzer | Candidate RESUME.pdf scored 1.0/10
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | Report generation failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | INFO     | resume_analyzer | Used local report for Black and White Minimalist Accountant Resume.pdf
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | ERROR    | resume_analyzer | Report generation failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:47:35 | INFO     | resume_analyzer | Used local report for RESUME.pdf
+2026-03-21 21:47:35 | INFO     | resume_analyzer | Ranked 2 candidates. Shortlisted: 0
+2026-03-21 21:47:38 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-21 21:47:52 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-21 21:49:05 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-21 21:50:48 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-21 21:50:48 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-21 21:50:48 | INFO     | resume_analyzer | API ready | env=development | ai_provider=groq
+2026-03-21 21:51:23 | INFO     | resume_analyzer | Uploaded: Black and White Minimalist Accountant Resume.pdf -> data\uploads\10e4f62e-fcf4-49de-9fd4-030299e3f837.pdf
+2026-03-21 21:51:23 | INFO     | resume_analyzer | Uploaded: RESUME.pdf -> data\uploads\8af9f17b-abc7-4975-a3ae-bec63e99dbe5.pdf
+2026-03-21 21:51:57 | INFO     | resume_analyzer | Analyzing job: AI Developer 
+2026-03-21 21:51:57 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:51:57 | ERROR    | resume_analyzer | Job analysis failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:51:57 | INFO     | resume_analyzer | Job profile created: 42edafe6-f907-4db6-93db-f6c9c744ad89 | skills=0
+2026-03-21 21:52:09 | INFO     | resume_analyzer | Processing candidate: Black and White Minimalist Accountant Resume.pdf
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | INFO     | resume_analyzer | Processing candidate: RESUME.pdf
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | Scoring failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | Scoring failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | INFO     | resume_analyzer | Candidate Black and White Minimalist Accountant Resume.pdf scored 1.0/10
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | INFO     | resume_analyzer | Candidate RESUME.pdf scored 1.0/10
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | Report generation failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | INFO     | resume_analyzer | Used local report for Black and White Minimalist Accountant Resume.pdf
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | LLM call failed [groq]: GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | ERROR    | resume_analyzer | Report generation failed: AI provider error (groq): GROQ_API_KEY is empty. Add it to your .env file.
+2026-03-21 21:52:10 | INFO     | resume_analyzer | Used local report for RESUME.pdf
+2026-03-21 21:52:10 | INFO     | resume_analyzer | Ranked 2 candidates. Shortlisted: 0
+2026-03-21 21:52:14 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-21 21:54:29 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-21 22:06:11 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-21 22:06:11 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-21 22:06:11 | INFO     | resume_analyzer | API ready | env=development | ai_provider=groq
+2026-03-21 22:06:53 | INFO     | resume_analyzer | Uploaded: RESUME.pdf -> data\uploads\0bdaf6b2-4bac-4a2d-8808-897d6c64f1fe.pdf
+2026-03-21 22:06:53 | INFO     | resume_analyzer | Uploaded: Black and White Minimalist Accountant Resume.pdf -> data\uploads\82e0aa39-c5cf-4c8d-be37-573e09f08b49.pdf
+2026-03-21 22:07:23 | INFO     | resume_analyzer | Analyzing job: AI Developer 
+2026-03-21 22:07:27 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:07:27 | ERROR    | resume_analyzer | Job analysis failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:07:27 | INFO     | resume_analyzer | Job profile created: 6707944a-68fb-4f9d-a94e-89f8efcb0a5c | skills=0
+2026-03-21 22:07:44 | INFO     | resume_analyzer | Analyzing job: AI Developer 
+2026-03-21 22:07:45 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:07:45 | ERROR    | resume_analyzer | Job analysis failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:07:45 | INFO     | resume_analyzer | Job profile created: e724dd30-984d-44d0-b1d7-81f285ecd87a | skills=0
+2026-03-21 22:08:16 | INFO     | resume_analyzer | Processing candidate: RESUME.pdf
+2026-03-21 22:08:17 | INFO     | resume_analyzer | Processing candidate: Black and White Minimalist Accountant Resume.pdf
+2026-03-21 22:08:18 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:18 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:19 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:19 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:20 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:20 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:20 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:20 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:20 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:20 | ERROR    | resume_analyzer | Scoring failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:20 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:20 | ERROR    | resume_analyzer | Scoring failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:20 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:20 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:20 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:20 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:21 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:21 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:21 | INFO     | resume_analyzer | Candidate RESUME.pdf scored 1.0/10
+2026-03-21 22:08:21 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:21 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:21 | INFO     | resume_analyzer | Candidate Black and White Minimalist Accountant Resume.pdf scored 1.0/10
+2026-03-21 22:08:22 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:22 | ERROR    | resume_analyzer | Report generation failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:22 | INFO     | resume_analyzer | Used local report for RESUME.pdf
+2026-03-21 22:08:22 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:22 | ERROR    | resume_analyzer | Report generation failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-21 22:08:22 | INFO     | resume_analyzer | Used local report for Black and White Minimalist Accountant Resume.pdf
+2026-03-21 22:08:22 | INFO     | resume_analyzer | Ranked 2 candidates. Shortlisted: 0
+2026-03-21 22:08:26 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-21 22:20:34 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-22 00:34:46 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-22 00:34:46 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-22 00:34:46 | INFO     | resume_analyzer | API ready | env=development | ai_provider=groq
+2026-03-22 00:35:30 | INFO     | resume_analyzer | Uploaded: Black and White Minimalist Accountant Resume.pdf -> data\uploads\1810b73e-dbcd-4035-9e19-ff6e35066a34.pdf
+2026-03-22 00:35:30 | INFO     | resume_analyzer | Uploaded: RESUME.pdf -> data\uploads\693bf4b4-2169-454a-96bf-8a9473eae027.pdf
+2026-03-22 00:36:00 | INFO     | resume_analyzer | Analyzing job: AI Developer 
+2026-03-22 00:36:02 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:02 | ERROR    | resume_analyzer | Job analysis failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:02 | INFO     | resume_analyzer | Job profile created: c1fc9977-3513-4628-b103-9b244a322ac6 | skills=0
+2026-03-22 00:36:17 | INFO     | resume_analyzer | Processing candidate: Black and White Minimalist Accountant Resume.pdf
+2026-03-22 00:36:18 | INFO     | resume_analyzer | Processing candidate: RESUME.pdf
+2026-03-22 00:36:19 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:19 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:20 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:20 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:21 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:21 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:21 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:21 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:21 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:21 | ERROR    | resume_analyzer | Scoring failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:21 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:21 | ERROR    | resume_analyzer | Scoring failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:21 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:21 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:21 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:21 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:22 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:22 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:22 | INFO     | resume_analyzer | Candidate RESUME.pdf scored 1.0/10
+2026-03-22 00:36:22 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:22 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:22 | INFO     | resume_analyzer | Candidate Black and White Minimalist Accountant Resume.pdf scored 1.0/10
+2026-03-22 00:36:23 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:23 | ERROR    | resume_analyzer | Report generation failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:23 | INFO     | resume_analyzer | Used local report for Black and White Minimalist Accountant Resume.pdf
+2026-03-22 00:36:24 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:24 | ERROR    | resume_analyzer | Report generation failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:36:24 | INFO     | resume_analyzer | Used local report for RESUME.pdf
+2026-03-22 00:36:24 | INFO     | resume_analyzer | Ranked 2 candidates. Shortlisted: 0
+2026-03-22 00:36:27 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-22 00:36:36 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-22 00:36:57 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:37:14 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-22 00:37:14 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-22 00:37:14 | INFO     | resume_analyzer | API ready | env=development | ai_provider=groq
+2026-03-22 00:37:55 | INFO     | resume_analyzer | Uploaded: RESUME.pdf -> data\uploads\d89e5a2c-9429-43b3-bf3f-da786fcda9ba.pdf
+2026-03-22 00:37:55 | INFO     | resume_analyzer | Uploaded: Black and White Minimalist Accountant Resume.pdf -> data\uploads\70f52fef-366b-494a-a121-5352653c6be6.pdf
+2026-03-22 00:38:03 | INFO     | resume_analyzer | Analyzing job: Senior Python Developer
+2026-03-22 00:38:04 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:04 | ERROR    | resume_analyzer | Job analysis failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:04 | INFO     | resume_analyzer | Job profile created: cd206b7b-fc7b-4dc8-9447-6b9bf4d02d84 | skills=0
+2026-03-22 00:38:13 | INFO     | resume_analyzer | Processing candidate: Black and White Minimalist Accountant Resume.pdf
+2026-03-22 00:38:14 | INFO     | resume_analyzer | Processing candidate: RESUME.pdf
+2026-03-22 00:38:15 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:15 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:16 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:16 | ERROR    | resume_analyzer | Resume parsing failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:18 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:18 | ERROR    | resume_analyzer | Scoring failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:18 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:18 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:18 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:18 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:18 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:18 | ERROR    | resume_analyzer | Weakness detection failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:18 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:18 | ERROR    | resume_analyzer | ATS analysis failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:18 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:18 | ERROR    | resume_analyzer | Scoring failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:19 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:19 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:19 | INFO     | resume_analyzer | Candidate Black and White Minimalist Accountant Resume.pdf scored 1.0/10
+2026-03-22 00:38:19 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:19 | ERROR    | resume_analyzer | Cover letter failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:19 | INFO     | resume_analyzer | Candidate RESUME.pdf scored 1.0/10
+2026-03-22 00:38:19 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:19 | ERROR    | resume_analyzer | Report generation failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:19 | INFO     | resume_analyzer | Used local report for Black and White Minimalist Accountant Resume.pdf
+2026-03-22 00:38:20 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:20 | ERROR    | resume_analyzer | Report generation failed: AI provider error (groq): Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:38:20 | INFO     | resume_analyzer | Used local report for RESUME.pdf
+2026-03-22 00:38:20 | INFO     | resume_analyzer | Ranked 2 candidates. Shortlisted: 0
+2026-03-22 00:38:23 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-22 00:49:32 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-22 00:50:45 | ERROR    | resume_analyzer | LLM call failed [groq]: Error code: 400 - {'error': {'message': 'The model `llama3-8b-8192` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-03-22 00:53:10 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-22 00:53:10 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-22 00:53:10 | INFO     | resume_analyzer | API ready | env=development | ai_provider=groq
+2026-03-22 00:54:16 | INFO     | resume_analyzer | Uploaded: Black and White Minimalist Accountant Resume.pdf -> data\uploads\cd0e2f8f-f85b-42fe-b18d-b8a3bcd218a9.pdf
+2026-03-22 00:54:16 | INFO     | resume_analyzer | Uploaded: RESUME.pdf -> data\uploads\3bd8f8c8-2084-4fc5-8d3f-7324e818ae50.pdf
+2026-03-22 00:54:23 | INFO     | resume_analyzer | Analyzing job: Senior Python Developer
+2026-03-22 00:54:25 | INFO     | resume_analyzer | Job analyzed -> role=Senior Python Developer
+2026-03-22 00:54:25 | INFO     | resume_analyzer | Job profile created: 76ec6ae7-5906-4907-94d1-b60080ba8e2c | skills=9
+2026-03-22 00:54:41 | INFO     | resume_analyzer | Processing candidate: RESUME.pdf
+2026-03-22 00:54:42 | INFO     | resume_analyzer | Processing candidate: Black and White Minimalist Accountant Resume.pdf
+2026-03-22 00:54:44 | INFO     | resume_analyzer | Resume parsed -> name=NANDINI DAS
+2026-03-22 00:54:45 | INFO     | resume_analyzer | Resume parsed -> name=PRANAY AJAY TAKKAMORE
+2026-03-22 00:54:46 | INFO     | resume_analyzer | Scored PRANAY AJAY TAKKAMORE = 1.0/10
+2026-03-22 00:54:47 | INFO     | resume_analyzer | Scored NANDINI DAS = 2.5/10
+2026-03-22 00:54:48 | INFO     | resume_analyzer | Candidate NANDINI DAS scored 2.5/10
+2026-03-22 00:54:48 | INFO     | resume_analyzer | Candidate PRANAY AJAY TAKKAMORE scored 1.0/10
+2026-03-22 00:54:51 | INFO     | resume_analyzer | Ranked 2 candidates. Shortlisted: 0
+2026-03-22 00:54:55 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-22 00:55:19 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-22 00:55:22 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-22 00:55:43 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-22 00:55:44 | INFO     | resume_analyzer | Analyzing job: AI Developer 
+2026-03-22 00:55:45 | INFO     | resume_analyzer | Job analyzed -> role=AI Developer 
+2026-03-22 00:55:45 | INFO     | resume_analyzer | Job profile created: e7c576f7-826d-4df9-8b76-589d3b510d59 | skills=7
+2026-03-22 00:55:47 | INFO     | resume_analyzer | CSV export: 0 rows
+2026-03-22 00:56:01 | INFO     | resume_analyzer | Processing candidate: RESUME.pdf
+2026-03-22 00:56:01 | INFO     | resume_analyzer | Processing candidate: Black and White Minimalist Accountant Resume.pdf
+2026-03-22 00:56:02 | INFO     | resume_analyzer | Resume parsed -> name=NANDINI DAS
+2026-03-22 00:56:03 | INFO     | resume_analyzer | Resume parsed -> name=PRANAY AJAY TAKKAMORE
+2026-03-22 00:56:05 | INFO     | resume_analyzer | Scored NANDINI DAS = 7.5/10
+2026-03-22 00:56:05 | INFO     | resume_analyzer | Scored PRANAY AJAY TAKKAMORE = 7.5/10
+2026-03-22 00:56:06 | INFO     | resume_analyzer | Candidate NANDINI DAS scored 7.5/10
+2026-03-22 00:56:07 | INFO     | resume_analyzer | Candidate PRANAY AJAY TAKKAMORE scored 7.5/10
+2026-03-22 00:56:09 | INFO     | resume_analyzer | Ranked 2 candidates. Shortlisted: 2
+2026-03-22 00:56:12 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-22 00:57:08 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-22 00:57:12 | ERROR    | resume_analyzer | Unhandled exception: Multiple rows were found when one or none was required
+Traceback (most recent call last):
+  File "C:\Users\nandi\anaconda3\Lib\site-packages\starlette\middleware\errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "C:\Users\nandi\anaconda3\Lib\site-packages\starlette\middleware\cors.py", line 87, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\nandi\anaconda3\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\nandi\anaconda3\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\nandi\anaconda3\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\nandi\anaconda3\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\nandi\anaconda3\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\nandi\anaconda3\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\nandi\anaconda3\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\nandi\anaconda3\Lib\site-packages\fastapi\routing.py", line 130, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\nandi\anaconda3\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\nandi\anaconda3\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\nandi\anaconda3\Lib\site-packages\fastapi\routing.py", line 116, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\nandi\anaconda3\Lib\site-packages\fastapi\routing.py", line 670, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\nandi\anaconda3\Lib\site-packages\fastapi\routing.py", line 324, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\nandi\OneDrive\Desktop\Resume Analyzer Tool\resume_analyzer\backend\routes\ranking_routes.py", line 109, in get_candidate_detail
+    analysis = analysis_result.scalar_one_or_none()
+  File "C:\Users\nandi\anaconda3\Lib\site-packages\sqlalchemy\engine\result.py", line 1492, in scalar_one_or_none
+    return self._only_one_row(
+           ~~~~~~~~~~~~~~~~~~^
+        raise_for_second_row=True, raise_for_none=False, scalar=True
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\nandi\anaconda3\Lib\site-packages\sqlalchemy\engine\result.py", line 813, in _only_one_row
+    raise exc.MultipleResultsFound(
+    ...<4 lines>...
+    )
+sqlalchemy.exc.MultipleResultsFound: Multiple rows were found when one or none was required
+2026-03-22 00:58:01 | INFO     | resume_analyzer | Shutting down Resume Analyzer API.
+2026-03-22 01:00:31 | INFO     | resume_analyzer | Starting Resume Analyzer API...
+2026-03-22 01:00:31 | INFO     | resume_analyzer | Database tables initialized.
+2026-03-22 01:00:31 | INFO     | resume_analyzer | API ready | env=development | ai_provider=groq
+2026-03-22 01:01:19 | INFO     | resume_analyzer | Uploaded: RESUME.pdf -> data\uploads\71ac78b3-3b1e-47a5-8880-2b09714ba37b.pdf
+2026-03-22 01:01:19 | INFO     | resume_analyzer | Uploaded: Black and White Minimalist Accountant Resume.pdf -> data\uploads\f23b0c2e-551e-42de-aa61-c27775c6b846.pdf
+2026-03-22 01:02:03 | INFO     | resume_analyzer | Analyzing job: AI Developer 
+2026-03-22 01:02:04 | INFO     | resume_analyzer | Job analyzed -> role=AI Developer 
+2026-03-22 01:02:04 | INFO     | resume_analyzer | Job profile created: 7680e308-6d38-462d-ad63-3f0bf4375176 | skills=7
+2026-03-22 01:02:13 | INFO     | resume_analyzer | Processing candidate: RESUME.pdf
+2026-03-22 01:02:14 | INFO     | resume_analyzer | Processing candidate: Black and White Minimalist Accountant Resume.pdf
+2026-03-22 01:02:16 | INFO     | resume_analyzer | Resume parsed -> name=NANDINI DAS
+2026-03-22 01:02:17 | INFO     | resume_analyzer | Resume parsed -> name=PRANAY AJAY TAKKAMORE
+2026-03-22 01:02:19 | INFO     | resume_analyzer | Scored PRANAY AJAY TAKKAMORE = 7.5/10
+2026-03-22 01:02:19 | INFO     | resume_analyzer | Scored NANDINI DAS = 7.5/10
+2026-03-22 01:02:21 | INFO     | resume_analyzer | Candidate NANDINI DAS scored 7.5/10
+2026-03-22 01:02:21 | INFO     | resume_analyzer | Candidate PRANAY AJAY TAKKAMORE scored 7.5/10
+2026-03-22 01:02:24 | INFO     | resume_analyzer | Ranked 2 candidates. Shortlisted: 2
+2026-03-22 01:02:28 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-22 01:03:04 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-22 01:03:10 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-22 01:04:08 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-22 01:05:02 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-22 01:05:03 | INFO     | resume_analyzer | CSV export: 2 rows
+2026-03-22 01:05:27 | INFO     | resume_analyzer | CSV export: 2 rows
